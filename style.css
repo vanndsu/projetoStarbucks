@@ -3,6 +3,12 @@
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Oswald', sans-serif; */
 
+
+@media (max-width: 400){
+    body{
+        width: 100vh;
+    }
+}
 :root {
   --verde-borda: #117050;
 }
@@ -15,6 +21,7 @@ body {
 header .line {
   background-color: var(--verde-borda);
   height: 10px;
+  width: 100%
 }
 .container {
   display: flex;
