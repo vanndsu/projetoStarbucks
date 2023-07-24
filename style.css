@@ -4,12 +4,6 @@
 font-family: 'Oswald', sans-serif; */
 
 
-@media (max-width: 400){
-    body{
-        width: 100vh;
-         overflow-x: hidden;
-    }
-}
 :root {
   --verde-borda: #117050;
 }
