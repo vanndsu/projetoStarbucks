@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap");
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+:root{
+    --verde-borda: #117050;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;  
+  margin: 0;
+}
+
+header .line{
+    background-color: var(--verde-borda);
+    height: 10px;
+}
+.container{
+    display: flex;
+    width: 1140px;
+    margin: auto;    
+    height: 90px;
+    justify-content: space-between;    
+    align-items: center;
+}
+.area-pesquisa{
+    display: flex;
+    align-items: center;
+    
+}
+.area-pesquisa .menu{
+    margin-left: 50px;
+}
+.search{
+    display: flex;
+
+    align-items: center;
+}
+.search-area{   
+   border: 1px solid #999;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+
+}
+
+.search-area #search, .search-icone{
+    padding: 7px 10px;
+    
+}
+.search-area #search{
+    border: none;
+    outline: none;
+    width: 100%;
+    max-width: 250px;
+}
+.search-icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+
+}
+.area-pesquisa .menu{
+    cursor: pointer;
+}
