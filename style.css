@@ -306,8 +306,8 @@ footer {
     padding: 30px;
   }
   .banner--images img {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border: 4px solid var(--verde-borda);
     border-radius: 50%;
     margin-right: 40px;
